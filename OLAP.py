@@ -95,7 +95,7 @@ def main():
                 tempHeader = fileHeader[:]
                 listName =[]
                 index = returnIndex(storeList, args.grp)
-                print(index)
+                print(index)#try to test with --group-by Sector and Ticker
                 testGroupBy(index, fw, args.input, args.grp)
                 for item in storeList:
                     if (item == storeList[0]):
@@ -122,7 +122,6 @@ def main():
                         newAppend = "max_" + args.max
                         tempHeader.append(newAppend)
                         indext = returnIndex(storeList, args.max)
-                        print(indext)
                         testMissField(indext, fw, args.input)
                         max = findmax(newList, indext)
                         resultList.append(max)
@@ -174,7 +173,7 @@ def main():
                     total = findcount(tempList, indext)
                     fileHeader.append("count")
                     finalResult.append(total)
-                if (args.max):
+                if (args.max):#have no idea why its always smaller than it should be
                     newAppend = "max_" + args.max
                     indext = returnIndex(storeList, args.max)
                     testMissField(indext, fw, args.input)
