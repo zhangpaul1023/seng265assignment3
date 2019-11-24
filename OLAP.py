@@ -4,7 +4,7 @@ import argparse
 import os
 import sys
 import csv
-
+#input1M.csv has totally different data, so its totally irrelevant to the test result.
 def returnIndex(array, string):
     index = ""
     print(string in array[0])
