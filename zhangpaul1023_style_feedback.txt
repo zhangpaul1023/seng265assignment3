@@ -1,0 +1,32 @@
+Student (NetlinkID): zhangpaul1023
+
+Style Grade: 20/20
+
+
+Select Qualitative Feedback:
+===========================
+
+Formatting 
+Good formatting being done in the assignments
+
+
+Naming
+good naming of variables
+
+
+
+Commenting
+comments added adequately
+
+
+
+Functional Decomposition
+good functional decomposition
+
+
+
+General Qualitative Feedback from Teaching Team:
+===============================================
+good submission overall
+...
+...
